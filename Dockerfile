@@ -7,5 +7,6 @@ RUN apk update \
 
 COPY init.sh /init.sh
 
-CMD ["/init.sh"]
+COPY main.cf /etc/postfix/main.cf
 
+CMD ["/init.sh"]
