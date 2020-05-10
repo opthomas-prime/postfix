@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.11
 
 MAINTAINER Thomas Maier <contact@thomas-maier.net>
 

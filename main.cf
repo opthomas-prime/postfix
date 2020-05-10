@@ -23,3 +23,6 @@ shlib_directory = /usr/lib/postfix
 
 mynetworks_style = subnet
 mynetworks = 0.0.0.0/0
+
+maillog_file = /dev/stdout
+
